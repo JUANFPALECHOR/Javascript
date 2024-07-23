@@ -8,7 +8,18 @@ function Sumas(){
 
 
 function basico(){
-    let x;
-    x = 6
+    let x = 6 ;
     document.getElementById("prueba").innerHTML = x
 }
+
+function matris(){
+    const cars = ["nisan","audi"]
+
+    cars[0] = "toyota"
+
+    cars.push("mercedes")
+    document.getElementById("cars").innerHTML = cars.join(" , "); 
+}
+
+matris();
+

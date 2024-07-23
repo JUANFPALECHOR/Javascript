@@ -23,3 +23,5 @@ document.getElementById('apagar').addEventListener('click', function(){
 document.getElementById('agrandar').addEventListener('click', function(){
     document.getElementById('texto').style.fontSize='35px'
 })
+
+document.getElementById("cars").innerHTML = cars.join(" , "); 
